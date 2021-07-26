@@ -1,5 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import OurStory from './components/OurStory';
+import Registry from './components/Registry';
+import Details from './components/Details';
+import RSVP from './components/Rsvp';
 
 function App() {
   return (
