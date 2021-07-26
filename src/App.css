@@ -76,6 +76,12 @@ a.nav-link:hover {
     background-color: #F4F0EC;
 }
 
+
+
+.ceremony-details {
+  border: 5px solid blue;
+}
+
 .card-title {
     font-family: 'Cookie';
     font-size: 35px;
@@ -87,6 +93,13 @@ p#detail-label {
     font-size: 22px;
     color: #848482;
     margin-bottom: 0px;
+}
+
+p#detail-title {
+  font-size: 22px;
+  color: #08123b;
+  margin-bottom: 0px;
+  text-transform: uppercase;
 }
 
 p.card-text {
