@@ -74,19 +74,23 @@ a.nav-link:hover {
 
 .card-body {
     background-color: #F4F0EC;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 35px;
 }
 
-
-
 .ceremony-details {
-  border: 5px solid blue;
+  border: 5px solid rgb(140, 140, 253);
+  height: 100vh;
 }
 
 .card-title {
     font-family: 'Cookie';
-    font-size: 35px;
+    font-size: 55px;
     margin-bottom: 0px;
-    color: #967BB6;
+    color: #07063b;
 }
 
 p#detail-label {

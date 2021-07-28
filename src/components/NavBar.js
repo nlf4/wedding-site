@@ -8,7 +8,7 @@ const NavBar = () => {
       <NavbarBrand href="/">Lindsay & Zach</NavbarBrand>
       <Nav className="nav">
         <NavItem>
-          <NavLink tag={Link} to="/Home">Home</NavLink>
+          <NavLink tag={Link} to="/">Home</NavLink>
         </NavItem>
         <NavItem>
           <NavLink tag={Link} to="/OurStory">Our Story</NavLink>
