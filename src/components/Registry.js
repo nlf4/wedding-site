@@ -1,8 +1,12 @@
+
 import React from 'react';
 
 const Registry = () => {
   return (
-    <p>Registry</p>
+    <div class="registry-container"> 
+       <p>Registry</p>
+    </div>
+   
   )
 }
 

@@ -43,7 +43,7 @@ nav.navbar {
 }
 
 ul {
-  padding: 0 200px;
+  padding: 0 200px 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -82,7 +82,7 @@ a.nav-link:hover {
 }
 
 .ceremony-details {
-  border: 5px solid rgb(140, 140, 253);
+  border: 1px solid #b3c2c7;
   height: 100vh;
 }
 
@@ -161,4 +161,11 @@ form {
     color: b3c2c7;
     width: 55vw;
     line-height: 45px;
+}
+
+
+.rsvp-container {
+    border: 1px solid #b3c2c7;
+    padding: 25px 0;
+    height: 90vh;
 }

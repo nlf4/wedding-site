@@ -4,7 +4,7 @@ import { Container, Col, Button, Form, FormGroup, Label, Input } from 'reactstra
 const Rsvp = props => {
 
   return (
-    <Container className="RSVP">
+    <Container className="rsvp-container">
       <Form onSubmit={ props.handleOnSubmit }>
         <Col>
           <FormGroup>
