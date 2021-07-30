@@ -5,6 +5,7 @@ const Rsvp = props => {
 
   return (
     <Container className="rsvp-container">
+      <p>Please RSVP by April 15th, 2022</p>
       <Form onSubmit={ props.handleOnSubmit }>
         <Col>
           <FormGroup>

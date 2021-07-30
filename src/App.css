@@ -163,9 +163,14 @@ form {
     line-height: 45px;
 }
 
-
 .rsvp-container {
     border: 1px solid #b3c2c7;
-    padding: 25px 0;
+    margin: auto;
     height: 90vh;
+    font-size: 24px;
+    color: #b3c2c7;
+}
+
+.footer {
+    color: #b3c2c7;
 }

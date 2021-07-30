@@ -7,6 +7,7 @@ import OurStory from './components/OurStory';
 import Registry from './components/Registry';
 import Details from './components/Details';
 import RSVP from './components/Rsvp';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/details" component={Details} />
         <Route exact path='/rsvp' component={RSVP} />
       </Switch>
+      <Footer />
     </div>
   </Router>
   );
