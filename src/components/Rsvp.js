@@ -61,7 +61,7 @@ const Rsvp = props => {
             </FormGroup>
           </Col>
         </FormGroup>
-        <Button>Submit</Button>
+        <Button className="submit-btn">Submit</Button>
       </Form>
     </Container>
   );

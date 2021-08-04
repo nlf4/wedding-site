@@ -174,3 +174,7 @@ form {
 .footer {
     color: #b3c2c7;
 }
+
+.submit-btn:hover {
+    cursor: pointer;
+}
