@@ -73,7 +73,7 @@ a.nav-link:hover {
 }
 
 .card-body {
-    background-color: #F4F0EC;
+    background-color: #223752;
     height: 90vh;
     display: flex;
     align-items: center;
@@ -90,18 +90,18 @@ a.nav-link:hover {
     font-family: 'Cookie';
     font-size: 55px;
     margin-bottom: 0px;
-    color: #07063b;
+    color: #c6d0d4;
 }
 
 p#detail-label {
     font-size: 22px;
-    color: #848482;
+    color: #c6d0d4;
     margin-bottom: 0px;
 }
 
 p#detail-title {
   font-size: 22px;
-  color: #08123b;
+  color: #c6d0d4;
   margin-bottom: 0px;
   text-transform: uppercase;
 }
@@ -109,6 +109,7 @@ p#detail-title {
 p.card-text {
     font-size: 15px;
     margin-bottom: 5px;
+    
 }
 
 h1,
@@ -128,6 +129,7 @@ img {
 p.card-text {
     margin-bottom: 10px;
     margin-top: 3px;
+    color: #c6d0d4;
 }
 
 div.our-story p {
