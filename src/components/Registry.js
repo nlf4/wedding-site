@@ -26,6 +26,13 @@ const Registry = () => {
        
 
         <p>Or you can donate to one of the charities listed below!</p>
+        <div>
+            <a href="https://www.thecitymission.org/lauras-home/">
+              The City Mission
+            
+              
+            </a>
+          </div>
         
       
     </div>
