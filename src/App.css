@@ -87,7 +87,7 @@ a.nav-link:hover {
 }
 
 .card-title {
-    font-family: 'Cookie';
+    font-family: 'Great Vibes';
     font-size: 55px;
     margin-bottom: 0px;
     color: #c6d0d4;
@@ -114,9 +114,9 @@ p.card-text {
 
 h1,
 h3 {
-    font-family: 'Cookie';
+    font-family: 'Great Vibes';
     font-size: 65px;
-    color: #967BB6;
+    color: #bfc0c9;
 }
 
 img {
@@ -179,4 +179,23 @@ form {
 
 .submit-btn:hover {
     cursor: pointer;
+}
+
+.registry-container {
+    border: 1px solid #b3c2c7;
+    color: #b3c2c7;
+    height: 100vh;
+}
+
+.reg-image {
+    height: 50px;
+    width: auto;
+    background-color: white;
+    margin-right: 15px;
+}
+
+#reg-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
