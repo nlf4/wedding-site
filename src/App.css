@@ -7,7 +7,7 @@
     background-color: #223752;
 }
 
-.App-logo {
+/* .App-logo {
     animation: App-logo-spin infinite 20s linear;
     height: 40vmin;
 }
@@ -34,7 +34,7 @@
     to {
         transform: rotate(360deg);
     }
-}
+} */
 
 nav.navbar {
     background-color: transparent;
@@ -199,3 +199,55 @@ form {
     flex-direction: row;
     justify-content: center;
 }
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .card-body {
+        height: 900px; 
+    }
+
+    ul {
+        flex-direction: column;
+        justify-content: center;
+        
+      }
+
+      li.nav-item {
+        border-bottom: #c6d0d4 1px solid;
+        padding: 10px;
+        width: 100%;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: auto;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
